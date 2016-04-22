@@ -1,0 +1,4 @@
+services:
+  cache.backend.php-alter:
+    class: dfd\AlterPhpCache\AlterPhpBackendFactory
+    arguments: ['@cache_tags.invalidator.checksum']

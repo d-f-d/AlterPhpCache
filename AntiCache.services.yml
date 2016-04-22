@@ -1,4 +1,0 @@
-services:
-  cache.backend.anticache:
-    class: d\AntiCache\AntiCacheBackendFactory
-    arguments: ['@cache_tags.invalidator.checksum']

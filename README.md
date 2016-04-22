@@ -1,0 +1,1 @@
+Human friendly and little faster php cache.

@@ -1,16 +1,10 @@
 <?php
 
-namespace d\AntiCache;
+namespace dfd\AlterPhpCache;
 
 use Drupal\Core\Cache\PhpBackend;
 
-/**
- * Created by PhpStorm.
- * User: punk_undead
- * Date: 22.04.16
- * Time: 23:39
- */
-class AntiCacheBackend extends PhpBackend {
+class AlterPhpBackend extends PhpBackend {
   /**
    * Writes a cache item to PhpStorage.
    *
