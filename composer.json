@@ -1,0 +1,15 @@
+{
+  "name": "d-f-d/alter-php-cache",
+  "type": "drupal-submodule",
+  "description": "Human friendly and little faster php cache.",
+  "license": "GPL-2.0+",
+  "version": "v1.0.0",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "dfd\\AlterPhpCache\\": "/src"
+    }
+  }
+}
